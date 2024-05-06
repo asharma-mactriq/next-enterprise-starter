@@ -1,7 +1,7 @@
 import { Metadata } from "next"
+import { Footer } from "components/Footer/Footer"
 import { Button } from "components/Button/Button"
 import { LP_GRID_ITEMS } from "lp-items"
-import { Footer } from "components/Footer/Footer"
 
 export const metadata: Metadata = {
   title: "Next.js Enterprise Boilerplate",
