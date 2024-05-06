@@ -1,6 +1,7 @@
 import { Metadata } from "next"
 import { Button } from "components/Button/Button"
 import { LP_GRID_ITEMS } from "lp-items"
+import { Footer } from "components/Footer/Footer"
 
 export const metadata: Metadata = {
   title: "Next.js Enterprise Boilerplate",
@@ -18,6 +19,19 @@ export const metadata: Metadata = {
     ],
   },
 }
+
+const menuOptions = [
+  {
+      key:"1",
+      name: 'about link'
+  },
+  {
+      key:"2",
+      name: 'contact link'
+  }
+]
+
+
 
 export default function Web() {
   return (
