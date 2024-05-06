@@ -55,7 +55,7 @@ export function Footer({className, intent, size, underline ,...props} : FooterPr
     return (
         <div className={twMerge(footer({intent,size,className,underline}))} {...props}>
             {
-                menuOptions.map((item) => (<p id={item.key}>{item.name} : {props.children}</p>))
+                menuOptions.map((item) => (<p key={item.key}>{item.name} : {props.children}</p>))
             }
         </div>
     )
